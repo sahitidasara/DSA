@@ -1,6 +1,6 @@
 #completely logical part
 #case1: sum%3!=0====>return 0
-#case2: sum==0===>(n-1)p2 ways
+#case2: sum==0===>(n-1)c2 combinations
 #case3: set s1, s3. Now s2 has some zeroes towards left of first occurence of 1 and towards right of last occurence of 1. Generalising it, no. of ways become (leftcountOfZeros+1)*(rightcountOfZeros+1)
 
 class Solution {
