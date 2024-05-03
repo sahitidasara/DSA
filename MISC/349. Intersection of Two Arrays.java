@@ -19,12 +19,6 @@ class Solution {
             else
                 j++;
         }
-        for (int i = 1; i < res.size(); i++) {
-            if (res.get(i) == res.get(i - 1)) {
-                res.remove(res.get(i));
-                i--;
-            }
-        }
         int[] arr = new int[res.size()];
 
         for (int i = 0; i < arr.length; i++) {
